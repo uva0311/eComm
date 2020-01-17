@@ -1,2 +1,5 @@
 node_modules
 users.json
+.DS_Store
+routes/.DS_Store
+views/.DS_Store
