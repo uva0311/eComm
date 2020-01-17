@@ -53,6 +53,8 @@ class UsersRepository {
     records.push(attrs);
 
     await this.writeAll(records);
+
+    return attrs;
   }
 
   async update(id, attrs) {
@@ -85,15 +87,4 @@ class UsersRepository {
   }
 }
 
-const test = async () => {
-  const repo = new UsersRepository('users.json');
-
-  const user = await repo.getOneBy({
-    email: 'test@test.com',
-    password: 'passwod'
-  });
-
-  console.log(user);
-};
-
-test();
+module.exports = new UsersRepository('users.json');
