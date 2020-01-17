@@ -1,10 +1,5 @@
 [
   {
-    "email": "user2@example.com",
-    "password": "1q2w3e4r",
-    "id": "690c8394"
-  },
-  {
     "email": "user3@example.com",
     "password": "cabacb3b5bbd8e5bae62a0aaef057489e5cb854fa02df4d0ab045411fa356fd1d105fd14f6bd9439b3d91725604a9328a6e3faea5ad2e9a1c84cc2ef9bdfa133.a4fc6f98b78d12bd",
     "id": "e3910602"
@@ -13,5 +8,10 @@
     "email": "userx@example.com",
     "password": "6f31d74243e37ff2f6e8421fef06784be275da1495bd57442ece5b83d98c34424f7a7027343ade328faca10c6d5abe3da970c2f37c2c9414875f32d277ddfaf6.f9e60d7d3d1a60d4",
     "id": "d29ff45b"
+  },
+  {
+    "email": "user2@example.com",
+    "password": "dbd08585572d406eba661903d17c5e0d5accf21e54035a8ff81a8b170ddda45bfc8ecda27fd952121cfef2ee56c5e803411f44a0e82035e512e1b7f297b6d235.eeda9839ebc40116",
+    "id": "239c964e"
   }
 ]
