@@ -2,7 +2,7 @@ const layout = require('../layout');
 
 module.exports = ({ items }) => {
   const totalPrice = items.reduce((prev, item) => {
-    return prev + item.product.price * item.product.quantity;
+    return prev + item.product.price * item.quantity;
   }, 0);
 
   const renderedItems = items
