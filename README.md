@@ -1,4 +1,6 @@
-Simple E-Commerce website built with JavaScript
+Simple E-Commerce website built with JavaScript, with shopping cart and admin panel
+
+**this project is meant to practice node.js backend routing and user(admin) authentication, therefore the data are not stored on a formal database, instead the node server will generate a json file for each different kind of data being written**
 
 ## Screenshots
 
@@ -33,5 +35,3 @@ open http://localhost:3000
 - express validator
 - multer
 - nodemon
-
-** this project is meant to practice node.js backend routing and authentication, therefore the data are not stored on a formal database, instead the node server will generate a json file for each different kind of data being written**
